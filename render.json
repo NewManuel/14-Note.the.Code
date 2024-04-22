@@ -1,0 +1,15 @@
+{
+    "buildCommand": "npm run build",
+    "startCommand": "npm start",
+    "routes": [
+      {
+        "src": "/",
+        "dest": "/server/server.js"
+      }
+    ],
+    "env": {
+      "NODE_ENV": "production",
+      "PORT": 3000
+    }
+  }
+  
